@@ -23,7 +23,19 @@ int main() {
     cout << endl << endl << endl << endl;
     cout << "      Bem vindo ao TicTacToe!";
     cout << endl << endl;
+    cout << "  1 - Jogar" << endl;
+    cout << "  0 - Sair" << endl << endl;
+    cin >> optEsc;
     
     /* Lugar da jogatina */
+    
+    switch(optEsc) {
+        case 1: //Caso o usuario escolha jogar
+           break; 
+            
+        case 2:
+            break;
+    }
+    
     return EXIT_SUCCESS;
 }
