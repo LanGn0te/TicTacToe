@@ -10,7 +10,8 @@
 int main() {
 
     bool sair;
-    while (sair) {
+    sair = false;
+    while (!sair) {
 
         /* Variaveis! */
 
